@@ -10,10 +10,10 @@ schedule>=1.1.0
 loguru>=0.6.0
 
 # Data storage
-sqlite3  # built-in, no install needed
+# sqlite3  # built-in, no install needed
 
 # Email notifications
-smtplib  # built-in, no install needed
+# smtplib  # built-in, no install needed
 
 # Optional: enhanced charting
 mplfinance>=0.12.9
@@ -26,3 +26,7 @@ pytest>=7.2.0
 pytest-cov>=4.0.0
 black>=22.12.0
 flake8>=6.0.0
+
+# Personal additions
+ipython>=8.0.0  # useful for interactive exploration in Jupyter
+jupyter>=1.0.0  # for running analysis notebooks locally
