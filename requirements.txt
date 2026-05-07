@@ -33,3 +33,4 @@ jupyter>=1.0.0  # for running analysis notebooks locally
 notebook>=6.5.0  # pinning notebook separately for stability with jupyter
 plotly>=5.11.0  # interactive charts -- much nicer for personal exploration
 rich>=13.0.0  # pretty terminal output, helpful when running scripts manually
+openpyxl>=3.1.0  # export analysis results to Excel for easy sharing
